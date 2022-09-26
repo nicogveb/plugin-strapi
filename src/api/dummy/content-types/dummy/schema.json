@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dummies",
+  "info": {
+    "singularName": "dummy",
+    "pluralName": "dummies",
+    "displayName": "dummy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "origen": {
+      "type": "json",
+      "required": true,
+      "pluginOptions": {
+        "map-field": {
+          "enabled": true
+        }
+      }
+    },
+    "destino": {
+      "type": "number",
+      "required": true,
+      "pluginOptions": {
+        "map-field": {
+          "enabled": true
+        }
+      }
+    }
+  }
+}
